@@ -48,6 +48,8 @@ if($($day).month -lt 10)
     $name += "0"
 }
 
+#some comment to test git
+
 # name zawiera nazwę pliku
 $name += "$($($day).month).$($($day).year)"
 
